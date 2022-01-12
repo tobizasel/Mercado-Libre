@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "bahnschrift-semicondensed";
+  src: url(../images/bahnschrift-font/BAHNSCHRIFT\ 8.TTF);
+}
+@font-face {
+  font-family: "bahnschrift-light";
+  src: url(../images/bahnschrift-font/BAHNSCHRIFT\ 10.TTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "bahnschrift-light";
+}
+
+.header {
+  background-color: #fff45c;
+}
+.header .header__arriba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header__arriba .header__titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 0;
+  margin-right: 12rem;
+}
+.header .header__arriba .header__titulo .header__titulo--logo {
+  height: 4rem;
+}
+.header .header__arriba .header__titulo .header__titulo--texto {
+  font-family: "bahnschrift-semicondensed";
+  font-size: 1.2rem;
+  line-height: 18px;
+  color: #2d3276;
+}
+.header .header__arriba .header__buscar {
+  width: 24rem;
+}
+.header .header__arriba .header__buscar .header__buscador {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+}
+
+/*# sourceMappingURL=main.css.map */
